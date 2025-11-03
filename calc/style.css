@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+.calc {
+  margin: 0;
+  padding: 0;
+  width: 400px;
+}
+.screen {
+  background-color: black;
+  color: white;
+  text-align: right;
+  padding: 20px;
+  font-size: 40px;
+}
+.buttoms {
+  background-color: black;
+}
+
+.buttom:last-child {
+  background-color: orange;
+}
+.buttom {
+  height: 100px;
+  width: 24.5%;
+  font-size: 40px;
+}
+.buttom-row {
+  display: flex;
+  align-content: stretch;
+  justify-content: space-between;
+  margin-bottom: 0.5%;
+}
+.double {
+  width: 49.7%;
+}
+.triple {
+  width: 74.8%;
+}
